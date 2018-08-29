@@ -1,0 +1,976 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+}
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, hr {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, th {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ed1c24;
+    text-transform: lowercase;
+}
+
+fieldset, img, hr {
+    border: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 11px;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.clear {
+    clear: both;
+}
+
+.alt {
+    display: inline-block;
+    margin: 1em 0 1.5em;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+    a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+}
+
+p {
+    font-size: 1.0em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img, svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.Bold, b, strong {
+    font-weight: bold;
+}
+
+.wrapper .insidewrapper {
+    margin: 0 auto;
+    max-width: 932px;
+    min-width: 320px;
+    width: 90%;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.col3layout {
+    display: table;
+}
+
+.col3layoutwrap .col3layout {
+    display: table-row;
+}
+
+.col3layout .col3col {
+    display: block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+    .col3layout .col3col:first-child {
+        margin-top: 0em;
+    }
+
+.col2layout {
+    display: table;
+}
+
+.col2layoutwrap .col2layout {
+    display: table-row;
+}
+
+.col2layout .col2col {
+    display: block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.nodecontent, .leftcontent {
+    width: 100%;
+    float: right;
+}
+
+.nominationslink {
+    border: 1px solid #1775bf;
+    color: #1775bf;
+    display: block;
+    font-size: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.node--type-nominationspage .nominationslink {
+    font-size: 12px;
+}
+
+.nominationslink .arrowwrap {
+    display: block;
+    margin-top: 6px;
+    position: relative;
+    width: 100%;
+}
+
+    .nominationslink .arrowwrap .arrowhead {
+        font-family: verdana;
+        font-size: 13px;
+        position: absolute;
+        right: 0;
+        top: -10px;
+    }
+
+    .nominationslink .arrowwrap .line {
+        background: #1775bf none repeat scroll 0 0;
+        display: block;
+        height: 1px;
+    }
+
+.historylayout .historylayoutwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.historylayoutwrap .historycol {
+    flex-grow: 1;
+    width: 100%;
+    padding: 0 25px 0 0;
+}
+
+    .historylayoutwrap .historycol p {
+        margin-bottom: 1.5em;
+    }
+
+    .historylayoutwrap .historycol.left-region {
+        order: 2;
+    }
+
+    .historylayoutwrap .historycol.center-region {
+        position: relative;
+        order: 3;
+    }
+
+    .historylayoutwrap .historycol.right-region {
+        order: 1;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #1775BF;
+    }
+
+        .historylayoutwrap .historycol.right-region strong {
+            color: #1775BF;
+            font-weight: normal;
+        }
+
+        .historylayoutwrap .historycol.right-region img {
+            max-width: 200px;
+        }
+
+.wrapper.header {
+    /*background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(171,189,227,1) 22%,rgba(16,101,175,1) 100%);
+    background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(171,189,227,1) 22%,rgba(16,101,175,1) 100%);
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(171,189,227,1) 22%,rgba(16,101,175,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#1065af',GradientType=0);*/
+    background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+    height: 140px;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+    .wrapper.header .mobilemenubutton {
+        display: block;
+        padding: 5px 5px 0;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        vertical-align: middle;
+        width: 60px;
+        z-index: 100;
+    }
+
+        .wrapper.header .mobilemenubutton span {
+            background: #0059a8 none repeat scroll 0 0;
+            display: block;
+            height: 5px;
+            margin-bottom: 7px;
+            width: 100%;
+        }
+
+    .wrapper.header .insidewrapper {
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .wrapper.header .insidewrapper > div {
+        }
+
+    .wrapper.header .chainwrapper {
+        float: right;
+        height: 100%;
+        position: relative;
+        width: 380px;
+    }
+
+        .wrapper.header .chainwrapper svg {
+            height: 140%;
+            position: absolute;
+            right: 1%;
+            top: -117%;
+            width: 54%;
+        }
+
+    .wrapper.header .leftheadlogo {
+        color: #0059a8;
+        display: block;
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 12px 0 0;
+        text-align: left;
+        text-transform: uppercase;
+        width: 120px;
+        display: none;
+    }
+
+    .wrapper.header .leftheadtext {
+        color: #0059a8;
+        display: block;
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 150px;
+        display: none;
+    }
+
+    .wrapper.header .rightheadtext {
+        clear: left;
+        color: #fff;
+        float: left;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 3px;
+        text-transform: uppercase;
+        width: 315px;
+        display: none;
+    }
+
+.wrapper.topmenu {
+    background: #1775bf;
+}
+
+    .wrapper.topmenu.menuclosed {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .wrapper.topmenu .insidewrapper nav {
+        float: left;
+        width: 100%;
+    }
+
+    .wrapper.topmenu ul:not(.contextual-links) {
+        display: block;
+        text-align: center;
+    }
+
+        .wrapper.topmenu ul:not(.contextual-links) li {
+            display: block;
+            padding-bottom: 0;
+            padding-top: 15px;
+        }
+
+            .wrapper.topmenu ul:not(.contextual-links) li a, .wrapper.topmenu ul:not(.contextual-links) li a:link, .wrapper.topmenu ul:not(.contextual-links) li a:visited {
+                color: #fff;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+
+                .wrapper.topmenu ul:not(.contextual-links) li a:hover, .wrapper.topmenu ul:not(.contextual-links) li a.is-active {
+                    color: #fff;
+                    border-bottom: 1px solid #fff;
+                    text-decoration: none;
+                }
+
+    .wrapper.topmenu .sharemenu {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+        .wrapper.topmenu .sharemenu a, .wrapper.topmenu .sharemenu a:link, .wrapper.topmenu .sharemenu a:visited, .wrapper.topmenu .sharemenu a:hover {
+            display: inline-block;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+            .wrapper.topmenu .sharemenu a svg {
+                display: block;
+                width: 15px;
+                height: 15px;
+            }
+
+.wrapper.footer {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top:1px solid rgb(23, 117, 191)
+}
+
+    .wrapper.footer .footerblock {
+        float: left;
+        width: 100%;
+    }
+
+        .wrapper.footer .footerblock:first-child {
+            margin-bottom: 2em;
+        }
+
+    .wrapper.footer nav {
+        width: 50%;
+        float: left;
+    }
+
+    .wrapper.footer ul:not(.contextual-links), . {
+        display: inline;
+    }
+
+        .wrapper.footer ul:not(.contextual-links) {
+            display: inline;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+
+            .wrapper.footer ul:not(.contextual-links) li {
+                list-style: none;
+                margin-bottom: 4px;
+                margin-right: 40px;
+            }
+
+                .wrapper.footer ul:not(.contextual-links) li a, .wrapper.footer ul:not(.contextual-links) li a:link, .wrapper.footer ul:not(.contextual-links) li a:visited {
+                    font-size: 9px;
+                    color: #867f6d;
+                }
+
+        .wrapper.footer .footerright {
+            padding-bottom: 10px;
+            padding-left: 65px;
+            padding-top: 15px;
+            position: relative;
+        }
+        .footerblock.footerright #block-footertext {
+            margin-left:50px;
+        }
+
+        .wrapper.footer .footerright .janssenlogofooter {
+            max-width: 109px;
+            position: absolute;
+            left: 0;
+            top: 0px;
+        }
+
+        .wrapper.content {
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background: #fff;
+        }
+
+        .startquote {
+            color: #1775bf;
+            font-size: 38px;
+            line-height: 22px;
+            margin-top: 15px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .field.quotetext {
+            color: #1775bf;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .field.quotename {
+            color: #1775bf;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .linewrap {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .views-row.is-active, .views-row.is-active a, .views-row.is-active a:link, .views-row.is-active a:hover {
+            color: #1775bf !important;
+        }
+
+            .views-row.is-active .linkrow .blackarrow {
+                background: url(../../../../themes/custom/janssenspharmaceuticaprize/style/css/images/bluearrow.svg) no-repeat 100% 100%;
+            }
+
+        .linewrap .line {
+            display: inline-block;
+            height: 4px;
+            background: #1775bf;
+            width: 80px;
+        }
+
+        .node--type-home .logorightitem {
+            display: block;
+            margin-top: 25px;
+            width: 46%;
+            margin-right: 4%;
+            float: left;
+        }
+
+        .node--type-home .col3layout .center-region img {
+            width: auto;
+        }
+
+        .node--type-home .col3layout .right-region {
+            padding-left: 1% !important;
+        }
+
+            .node--type-home .col3layout .right-region .alt {
+                color: #1775BF;
+                font-size: 1.3em;
+                margin-top: .8em;
+                display: inline-block;
+            }
+
+        .cycle-slideshow {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .cycleslide {
+            width: 100%;
+        }
+
+        .cyclebutton {
+            display: block;
+            width: 26px;
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 1em;
+        }
+
+        .cyclebutton.cyclebuttonprev {
+            float: left;
+        }
+
+        .cyclebutton.cyclebuttonnext {
+            float: right;
+        }
+
+        .linkrow {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+            .linkrow .blackarrow {
+                position: absolute;
+                background: url(../../../../themes/custom/janssenspharmaceuticaprize/style/css/images/blackarrow.svg) no-repeat 100% 100%;
+                width: 20px;
+                height: 5px;
+                left: 0;
+                top: 5px;
+            }
+
+            .linkrow .titel {
+                display: block;
+                font-weight: bold;
+            }
+
+        .node--type-jurylid .foto {
+            margin-bottom: 1em;
+        }
+
+        .node--type-nominationspage h2, h1.bluetitle, h2.bluetitle, h3.bluetitle {
+            border-bottom: 1px solid #1775bf;
+            color: #1775bf;
+            display: inline-block;
+            font-size: 11px;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-bottom: 1em;
+        }
+
+            .node--type-nominationspage h2.second {
+                margin-top: 2em;
+            }
+
+        .node--type-nominationspage .file {
+            background: rgba(0,0,0,0) url(../../../../themes/custom/janssenspharmaceuticaprize/style/css/images/blackarrow.svg) no-repeat scroll 0px 3px;
+            padding-left: 26px;
+        }
+
+        .last_updated {
+            display: block;
+            width: 100%;
+            text-align: right;
+            font-weight: lighter;
+            font-size: .9em;
+            margin-top: 1.2em;
+        }
+@media screen and (min-width: 300px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02.jpg');
+        height: 140px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width :570px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02.jpg');
+        height: 140px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .wrapper.header .chainwrapper svg {
+        /*height: 140%;
+        position: absolute;
+        right: 46px;
+        top: -58%;
+        width: 81%;*/
+        display: none;
+    }
+
+    .col3layout .col3col:nth-child(2n) {
+        width: 48%;
+        float: left;
+    }
+
+    .col3layout .col3col:last-child {
+        width: 48%;
+        border-left: 1px #1775bf solid;
+        padding-left: 4%;
+        float: right;
+    }
+}
+
+@media screen and (min-width :700px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+        height: 140px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+        .wrapper.header .chainwrapper svg {
+            /*height: 187%;
+            position: absolute;
+            right: 0;
+            top: -77%;
+            width: 86%;*/
+            display:none;
+        }
+
+    .wrapper.footer .footerblock {
+        float: left;
+        width: 48%;
+        margin-left: 2%;
+        margin-bottom: 0;
+    }
+
+        .wrapper.footer .footerblock:first-child {
+            margin-left: 0%;
+            width: 50%;
+        }
+}
+
+@media screen and (min-width :765px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+        height: 205px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .wrapper.topmenu .insidewrapper nav {
+        float: left;
+    }
+
+    .wrapper.header .mobilemenubutton {
+        display: none;
+    }
+
+    .wrapper.topmenu .sharemenu {
+        display: block;
+        float: right;
+    }
+
+    .wrapper.topmenu.menuclosed {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .wrapper.topmenu .insidewrapper nav {
+        width: auto;
+        display: inline;
+        height: 50px;
+    }
+
+    .wrapper.topmenu .sharemenu a, .wrapper.topmenu .sharemenu a:link, .wrapper.topmenu .sharemenu a:visited, .wrapper.topmenu .sharemenu a:hover {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+        .wrapper.topmenu .sharemenu a:last-child {
+            margin-right: 0px;
+        }
+
+    .wrapper.topmenu ul:not(.contextual-links) {
+        display: inline-block;
+        text-align: center;
+    }
+
+        .wrapper.topmenu ul:not(.contextual-links) li {
+            display: inline-block;
+            margin-right: 40px;
+        }
+
+            .wrapper.topmenu ul:not(.contextual-links) li a, .wrapper.topmenu ul:not(.contextual-links) li a:link, .wrapper.topmenu ul:not(.contextual-links) li a:visited {
+                font-size: 10px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+}
+
+@media screen and (min-width :830px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+        height: 205px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .col3layoutwrap {
+        display: table-row;
+    }
+
+    .col3layout .col3col {
+        margin-top: 0;
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        border-left: 1px solid #1775bf;
+        padding-left: 30px;
+        padding-right: 30px;
+        float: none !important;
+    }
+
+        .col3layout .col3col:first-child {
+            border: none;
+            padding-left: 0px;
+        }
+
+        .col3layout .col3col:last-child {
+            padding-right: 0px;
+        }
+
+    .node--type-home .col3layout .left-region {
+        width: 40%;
+    }
+
+        .node--type-home .col3layout .left-region p {
+            font-size: 15px;
+        }
+
+    .node--type-home .col3layout .center-region {
+        width: 38%;
+    }
+
+    .node--type-home .col3layout .right-region {
+        width: 24%;
+    }
+
+    .node--type-nominationspage .col3layout .left-region {
+        width: 30%;
+    }
+
+        .node--type-nominationspage .col3layout .left-region p {
+            font-size: 15px;
+        }
+
+    .node--type-nominationspage .col3layout .center-region {
+        width: 42%;
+    }
+
+    .node--type-nominationspage .col3layout .right-region {
+        width: 28%;
+    }
+
+    .node--type-aboutpage .col3layout .left-region {
+        width: 42%;
+    }
+
+        .node--type-aboutpage .col3layout .left-region p {
+            font-size: 11px;
+        }
+
+    .node--type-aboutpage .col3layout .center-region {
+        width: 33%;
+    }
+
+    .node--type-aboutpage .col3layout .right-region {
+        width: 29%;
+    }
+
+    .node--type-home .logorightitem {
+        display: block;
+        margin-top: 25px;
+        width: 100%;
+        margin-right: 0%;
+        float: none;
+    }
+
+    .nodecontent.fullwidthcontent {
+        width: 100%;
+    }
+
+    .node--type-jurylid .nodecontent, .node--type-winnerspagina .nodecontent {
+        width: 71%;
+        float: right;
+    }
+
+    .node--type-jurylid .leftcontent, .node--type-winnerspagina .leftcontent {
+        width: 29%;
+        float: left;
+        padding-right: 30px;
+    }
+
+    .node--type-pressitem .nodecontent {
+        width: 60%;
+        float: right;
+        padding-left: 30px;
+        border-left: 1px solid #1775bf;
+    }
+
+    .node--type-pressitem .leftcontent {
+        width: 40%;
+        float: left;
+        padding-right: 30px;
+    }
+
+    .col2layoutwrap {
+        display: table-row;
+    }
+
+    .col2layout .col2col {
+        margin-top: 0;
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        border-left: 1px solid #1775bf;        
+        padding-left: 30px;
+        padding-right: 30px;
+        float: none !important;
+    }
+    .col2col_right {
+        border-right: 1px solid rgb(23, 117, 191);
+        padding-right: 30px;
+    }
+
+        .col2layout .col2col:last-child {
+            padding-right: 30px;
+        }
+
+    .node--type-jurylid .col2layout .left-region {
+        width: 61%;
+    }
+
+    .node--type-jurylid .col2layout .right-region {
+        width: 39%;
+    }
+
+    .node--type-winnerspagina .col2layout .left-region {
+        width: 61%;
+    }
+
+    .node--type-winnerspagina .col2layout .right-region {
+        width: 39%;
+    }
+}
+
+@media screen and (min-width :900px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+        height: 205px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .historylayout .historylayoutwrap {
+        flex-direction: row;
+    }
+
+    .historylayoutwrap .historycol.left-region, .historylayoutwrap .historycol.center-region, .historylayoutwrap .historycol.right-region {
+        order: inherit;
+    }
+
+        .historylayoutwrap .historycol.center-region:after {
+            content: '';
+            display: block;
+            height: 100%;
+            box-sizing: inherit;
+            width: 3px;
+            background-color: #1775BF;
+            padding-top: 40px;
+            top: -40px;
+            position: absolute;
+            right: 0;
+        }
+
+    .historylayoutwrap .historycol.right-region {
+        border-bottom: none;
+        padding: 0 0 0 15px;
+    }
+
+    .wrapper.header {
+        height: 205px;
+    }
+
+        .wrapper.header .leftheadtext {
+            width: 187px;
+            margin-top: 45px;
+            text-align: right;
+            display:none;
+        }
+
+        .wrapper.header .rightheadtext {
+            clear: none;
+            width: 125px;
+            margin-top: 45px;
+            margin-left: 20px;
+            display: none;
+        }
+
+        .wrapper.header .chainwrapper svg {
+            height: 187%;
+            left: -22%;
+            position: absolute;
+            top: -77%;
+            width: 120%;
+            display: none;
+        }
+}
+
+@media screen and (min-width :1005px) {
+    .wrapper.header {
+        background-image: url('../2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+        height: 205px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .wrapper.header .leftheadlogo {
+        width: 170px;
+        margin-top: 45px;
+        display:none;
+    }
+
+    .wrapper.header .leftheadtext {
+        width: 180px;
+        margin-top: 48px;
+        text-align: right;
+        font-size: 15px;
+        display: none;
+    }
+
+    .wrapper.header .rightheadtext {
+        clear: none;
+        width: 170px;
+        margin-top: 45px;
+        margin-left: 20px;
+        font-size: 25px;
+        display: none;
+    }
+
+    .wrapper.topmenu ul:not(.contextual-links) li {
+        margin-right: 60px;
+    }
+}

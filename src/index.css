@@ -1,0 +1,1279 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, th {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(237, 28, 36);
+    text-transform: lowercase;
+}
+
+fieldset, img, hr {
+    border: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+td {
+    vertical-align: top;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 11px;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.clear {
+    clear: both;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+    a:link, a:visited, a:hover, a:active {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+
+h1, h2 {
+    display: block;
+}
+
+img, svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.bold, b, strong {
+    font-weight: bold;
+}
+
+.wrapper .insidewrapper {
+    margin: 0px auto;
+    max-width: 932px;
+    min-width: 320px;
+    width: 90%;
+    position: relative;
+    height: 50px
+}
+/*h1, h2{ display: block; font-size: 17px; margin-bottom: 1.5em; text-transform: uppercase; }*/
+h1, h2 {
+    font-family: Calibri !important;
+    font-size: 24px !important;
+    color: rgb(237,125,49) !important;
+    font-weight: bold !important;
+    text-transform: initial !important;
+}
+
+.col3layout {
+    display: table;
+}
+
+.col3layoutwrap .col3layout {
+    display: table-row;
+}
+
+.col3layout .col3col {
+    display: block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+    .col3layout .col3col:first-child {
+        margin-top: 0em;
+    }
+
+.col2layout {
+    display: table;
+}
+
+.col2layoutwrap .col2layout {
+    display: table-row;
+}
+
+.col2layout .col2col {
+    display: block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.nodecontent, .leftcontent {
+    width: 100%;
+    float: right;
+}
+
+.nominationslink {
+    border: 1px solid rgb(23, 117, 191);
+    color: rgb(23, 117, 191);
+    display: block;
+    font-size: 8px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.node--type-nominationspage .nominationslink {
+    font-size: 12px;
+}
+
+.nominationslink .arrowwrap {
+    display: block;
+    margin-top: 6px;
+    position: relative;
+    width: 100%;
+}
+
+    .nominationslink .arrowwrap .arrowhead {
+        font-family: verdana;
+        font-size: 13px;
+        position: absolute;
+        right: 0px;
+        top: -10px;
+    }
+
+    .nominationslink .arrowwrap .line {
+        background-image: none;
+        background-attachment: scroll;
+        background-color: rgb(23, 117, 191);
+        display: block;
+        height: 1px;
+        background-position: 0px 0px;
+        background-repeat: repeat repeat;
+    }
+
+.historylayout .historylayoutwrap {
+}
+
+.historylayoutwrap .historycol {
+    width: 100%;
+    padding: 0px 25px 0px 0px;
+}
+
+    .historylayoutwrap .historycol p {
+        margin-bottom: 1.5em;
+    }
+
+    .historylayoutwrap .historycol.left-region {
+    }
+
+    .historylayoutwrap .historycol.center-region {
+        position: relative;
+    }
+
+    .historylayoutwrap .historycol.right-region {
+        margin-bottom: 15px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(23, 117, 191);
+    }
+
+        .historylayoutwrap .historycol.right-region strong {
+            color: rgb(23, 117, 191);
+            font-weight: normal;
+        }
+
+        .historylayoutwrap .historycol.right-region img {
+            max-width: 200px;
+        }
+
+.wrapper.header {
+    /*background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(171, 189, 227) 22%, rgb(16, 101, 175) 100%);
+    height: 140px;
+    background-position: initial initial;
+    background-repeat: initial initial;*/
+    background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02c.jpg');
+    height: 140px;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+    .wrapper.header .mobilemenubutton {
+        display: block;
+        padding: 5px 5px 0px;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        vertical-align: middle;
+        width: 60px;
+        z-index: 100;
+    }
+
+        .wrapper.header .mobilemenubutton span {
+            background-image: none;
+            background-attachment: scroll;
+            background-color: rgb(0, 89, 168);
+            display: block;
+            height: 5px;
+            margin-bottom: 7px;
+            width: 100%;
+            background-position: 0px 0px;
+            background-repeat: repeat repeat;
+        }
+
+    .wrapper.header .insidewrapper {
+        height: 100%;
+        overflow: hidden;
+    }
+
+        .wrapper.header .insidewrapper > div {
+        }
+
+    .wrapper.header .chainwrapper {
+        float: right;
+        height: 100%;
+        position: relative;
+        width: 380px;
+    }
+
+        .wrapper.header .chainwrapper svg {
+            height: 140%;
+            position: absolute;
+            right: 1%;
+            top: -117%;
+            width: 54%;
+        }
+
+    .wrapper.header .leftheadlogo {
+        color: rgb(0, 89, 168);
+        display: block;
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 12px 0px 0px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 120px;
+    }
+
+    .wrapper.header .leftheadtext {
+        color: rgb(0, 89, 168);
+        display: block;
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: left;
+        text-transform: uppercase;
+        width: 150px;
+    }
+
+    .wrapper.header .rightheadtext {
+        clear: left;
+        color: rgb(255, 255, 255);
+        float: left;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 3px;
+        text-transform: uppercase;
+        width: 315px;
+    }
+
+.wrapper.topmenu {
+    background-color: rgb(23, 117, 191);
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+    .wrapper.topmenu.menuclosed {
+        height: 0px;
+        overflow: visible;
+        /* linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(171,189,227,1) 22%,rgba(16,101,175,1) 100%); */
+    }
+
+    .wrapper.topmenu .insidewrapper nav {
+        float: left;
+        width: 100%;
+    }
+
+    .wrapper.topmenu ul:not(.contextual-links) {
+        display: block;
+        text-align: center;
+    }
+
+        .wrapper.topmenu ul:not(.contextual-links) li {
+            display: block;
+            padding-bottom: 0px;
+            padding-top: 15px;
+        }
+
+            .wrapper.topmenu ul:not(.contextual-links) li a, .wrapper.topmenu ul:not(.contextual-links) li a:link, .wrapper.topmenu ul:not(.contextual-links) li a:visited {
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+                /*.wrapper.topmenu ul:not(.contextual-links) li a:hover, .wrapper.topmenu ul:not(.contextual-links) li a:focus { color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); text-decoration: none; }*/
+                .wrapper.topmenu ul:not(.contextual-links) li a:active {
+                    border-bottom: 1px solid #fff !important;
+                }
+
+    .wrapper.topmenu .sharemenu {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+        .wrapper.topmenu .sharemenu a, .wrapper.topmenu .sharemenu a:link, .wrapper.topmenu .sharemenu a:visited, .wrapper.topmenu .sharemenu a:hover {
+            display: inline-block;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+            .wrapper.topmenu .sharemenu a svg {
+                display: block;
+                width: 15px;
+                height: 15px;
+            }
+/*.wrapper.topmenu ul .dropdown-content a:hover, .wrapper.topmenu ul .dropdown-content a.is-active{border-bottom: 0 !important;}*/
+.dropdown-content a:first-child {
+    border-bottom: 1px solid #fff !important;
+}
+
+.wrapper.footer {
+    background: #fff none repeat scroll 0 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(23, 117, 191);
+    float: left;
+
+}
+
+    .wrapper.footer .footerblock {
+        float: left;
+        width: 100%;
+    }
+
+        .wrapper.footer .footerblock:first-child {
+            margin-bottom: 2em;
+        }
+
+    .wrapper.footer nav {
+        width: 50%;
+        float: left;
+    }
+
+    .wrapper.footer ul:not(.contextual-links) {
+        display: inline;
+        -webkit-column-count: 2;
+    }
+
+        .wrapper.footer ul:not(.contextual-links) li {
+            list-style-type: none;
+            list-style-position: initial;
+            list-style-image: initial;
+            margin-bottom: 4px;
+            margin-right: 50px;
+        }
+
+            .wrapper.footer ul:not(.contextual-links) li a, .wrapper.footer ul:not(.contextual-links) li a:link, .wrapper.footer ul:not(.contextual-links) li a:visited {
+                font-size: 9px;
+                color: rgb(134, 127, 109);
+            }
+
+    .wrapper.footer .footerright {
+        padding-bottom: 10px;
+        padding-left: 65px;
+        padding-top: 15px;
+        position: relative;
+    }
+
+        .wrapper.footer .footerright .janssenlogofooter {
+            max-width: 59px;
+            position: absolute;
+            left: 0px;
+            top: 12px;
+        }
+
+.wrapper.content {
+    padding-top: 25px;
+    float: left;
+    padding-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+.startquote {
+    color: rgb(23, 117, 191);
+    font-size: 38px;
+    line-height: 22px;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.field.quotetext {
+    color: rgb(23, 117, 191);
+    font-size: 14px;
+    text-align: center;
+}
+
+.field.quotename {
+    color: rgb(23, 117, 191);
+    font-size: 10px;
+    text-align: center;
+}
+
+.linewrap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.views-row.is-active, .views-row.is-active a, .views-row.is-active a:link, .views-row.is-active a:hover {
+    color: rgb(23, 117, 191) !important;
+}
+
+    .views-row.is-active .linkrow .blackarrow {
+        background-image: url(/images/bluearrow.html);
+        background-position: 100% 100%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+.linewrap .line {
+    display: inline-block;
+    height: 4px;
+    background-color: rgb(23, 117, 191);
+    width: 80px;
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+.node--type-home .logorightitem {
+    display: block;
+    margin-top: 25px;
+    width: 46%;
+    margin-right: 4%;
+    float: left;
+}
+
+.cyclewrap {
+    height: 440px
+}
+
+.aboutcol3layout .cyclewrap {
+    height: 280px
+}
+
+.cycle-slideshow {
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+}
+
+.cycleslide {
+    width: 100%;
+    height: 100%
+}
+
+.cyclebutton {
+    display: block;
+    width: 26px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.cyclebutton.cyclebuttonprev {
+    float: left;
+}
+
+.cyclebutton.cyclebuttonnext {
+    float: right;
+}
+
+.linkrow {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 25px;
+}
+
+    .linkrow .blackarrow {
+        position: absolute;
+        background-image: url(/images/blackarrow.html);
+        width: 20px;
+        height: 5px;
+        left: 0px;
+        top: 5px;
+        background-position: 100% 100%;
+        background-repeat: no-repeat no-repeat;
+    }
+
+    .linkrow .titel {
+        display: block;
+        font-weight: bold;
+    }
+
+.node--type-jurylid .foto {
+    margin-bottom: 1em;
+}
+
+.node--type-nominationspage h2, h1.bluetitle, h2.bluetitle, h3.bluetitle {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(23, 117, 191);
+    color: rgb(23, 117, 191);
+    display: inline-block;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+    .node--type-nominationspage h2.second {
+        margin-top: 2em;
+    }
+
+.node--type-nominationspage .file {
+    background-image: url(/images/blackarrow.html);
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 26px;
+    background-position: 0px 3px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.last_updated {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-weight: lighter;
+    font-size: 0.9em;
+    margin-top: 1.2em;
+}
+
+.wrapper.topmenu ul:not(.contextual-links) li.dropdown .dropdown-content a:hover, .wrapper.topmenu ul:not(.contextual-links) li.dropdown .dropdown-content a.is-active {
+    border-bottom: 0;
+}
+
+li.dropdown .dropdown-content a.mob_only {
+    display: none;
+}
+
+li.dropdown a.mob_only {
+    display: none;
+}
+
+/*Deepak 6-22-2018*/
+.hp_header {
+    font-family: Calibri;
+    font-size: 24px !important;
+    color: orange;
+    font-weight: bold !important;
+}
+
+.privacy h1, .privacy h2 {
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 370px) {
+    .wrapper.header {
+        background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02.jpg');
+        height: 185px;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+    @media screen and (min-width: 570px) {
+        .wrapper.header {
+            background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02.jpg');
+            height: 185px;
+            background-size: 100%;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+        }
+
+            .wrapper.header .chainwrapper svg {
+                height: 140%;
+                position: absolute;
+                right: 46px;
+                top: -58%;
+                width: 81%;
+                display: none;
+            }
+
+        .col3layout .col3col:nth-child(2n) {
+            width: 48%;
+            float: left;
+        }
+
+        .col3layout .col3col:last-child {
+            width: 48%;
+            border-left-width: 1px;
+            border-left-color: rgb(23, 117, 191);
+            border-left-style: solid;
+            padding-left: 4%;
+            float: right;
+        }
+    }
+
+    @media screen and (min-width: 700px) {
+        .wrapper.header {
+            background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+            height: 140px;
+            background-size: 100%;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+        }
+
+            .wrapper.header .chainwrapper svg {
+                height: 187%;
+                position: absolute;
+                right: 0px;
+                top: -77%;
+                width: 86%;
+            }
+
+        .wrapper.footer .footerblock {
+            float: left;
+            width: 48%;
+            margin-left: 2%;
+            margin-bottom: 0px;
+        }
+
+            .wrapper.footer .footerblock:first-child {
+                margin-left: 0%;
+                width: 50%;
+            }
+    }
+
+    @media screen and (min-width: 765px) {
+
+        .wrapper.header {
+            background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+            height: 140px;
+            background-size: 100%;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+        }
+        .wrapper.topmenu .insidewrapper nav {
+            float: left;
+        }
+
+        .wrapper.header .mobilemenubutton {
+            display: none;
+        }
+
+        .wrapper.topmenu .sharemenu {
+            display: block;
+            float: right;
+        }
+
+        .wrapper.topmenu.menuclosed {
+            height: auto;
+            overflow: visible !important;
+        }
+
+        .wrapper.topmenu .insidewrapper nav {
+            width: auto;
+            display: inline;
+            height: 50px;
+        }
+
+        .wrapper.topmenu .sharemenu a, .wrapper.topmenu .sharemenu a:link, .wrapper.topmenu .sharemenu a:visited, .wrapper.topmenu .sharemenu a:hover {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+            .wrapper.topmenu .sharemenu a:last-child {
+                margin-right: 0px;
+            }
+
+        .wrapper.topmenu ul:not(.contextual-links) {
+            display: inline-block;
+            text-align: center;
+        }
+
+            .wrapper.topmenu ul:not(.contextual-links) li {
+                display: inline-block;
+                margin-right: 50px;
+            }
+
+                .wrapper.topmenu ul:not(.contextual-links) li a, .wrapper.topmenu ul:not(.contextual-links) li a:link, .wrapper.topmenu ul:not(.contextual-links) li a:visited {
+                    font-size: 10px;
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                }
+    }
+
+    @media screen and (min-width: 830px) {
+        .wrapper.header {
+            background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+            height: 140px;
+            background-size: 100%;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+        }
+        .col3layoutwrap {
+            display: table-row;
+        }
+
+        .col3layout .col3col {
+            margin-top: 0px;
+            display: table-cell;
+            vertical-align: top;
+            width: 100%;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: rgb(23, 117, 191);
+            padding-left: 30px;
+            padding-right: 30px;
+            float: none !important;
+        }
+
+            .col3layout .col3col:first-child {
+                border: none;
+                padding-left: 0px;
+            }
+
+            .col3layout .col3col:last-child {
+                padding-right: 0px;
+            }
+
+        .node--type-home .col3layout .left-region {
+            width: 40%;
+        }
+
+            .node--type-home .col3layout .left-region p {
+                font-size: 15px;
+            }
+
+        .node--type-home .col3layout .center-region {
+            width: 38%;
+        }
+
+        .node--type-home .col3layout .right-region {
+            width: 24%;
+        }
+
+        .node--type-nominationspage .col3layout .left-region {
+            width: 30%;
+        }
+
+            .node--type-nominationspage .col3layout .left-region p {
+                font-size: 15px;
+            }
+
+        .node--type-nominationspage .col3layout .center-region {
+            width: 42%;
+        }
+
+        .node--type-nominationspage .col3layout .right-region {
+            width: 28%;
+        }
+
+        .node--type-aboutpage .col3layout .left-region {
+            width: 29%;
+        }
+
+            .node--type-aboutpage .col3layout .left-region p {
+                font-size: 11px;
+            }
+
+        .node--type-aboutpage .col3layout .center-region {
+            width: 42%;
+        }
+
+        .node--type-aboutpage .col3layout .right-region {
+            width: 29%;
+        }
+
+        .node--type-home .logorightitem {
+            display: block;
+            margin-top: 25px;
+            width: 100%;
+            margin-right: 0%;
+            float: none;
+        }
+
+        .nodecontent.fullwidthcontent {
+            width: 100%;
+        }
+
+        .node--type-jurylid .nodecontent, .node--type-winnerspagina .nodecontent {
+            width: 71%;
+            float: right;
+        }
+
+        .node--type-jurylid .leftcontent, .node--type-winnerspagina .leftcontent {
+            width: 29%;
+            float: left;
+            padding-right: 30px;
+        }
+
+        .node--type-pressitem .nodecontent {
+            width: 60%;
+            float: right;
+            padding-left: 30px;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: rgb(23, 117, 191);
+        }
+
+        .node--type-pressitem .leftcontent {
+            width: 40%;
+            float: left;
+            padding-right: 30px;
+        }
+
+        .col2layoutwrap {
+            display: table-row;
+        }
+
+        .col2layout .col2col {
+            margin-top: 0px;
+            display: table-cell;
+            vertical-align: top;
+            width: 100%;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-left-color: rgb(23, 117, 191);            
+            padding-left: 30px;
+            padding-right: 30px;
+            float: none !important;
+        }
+        .col2col_right {
+            border-right: 1px solid rgb(23, 117, 191);
+            padding-right: 30px;
+        }
+
+            .col2layout .col2col:last-child {
+                padding-right: 0px;
+            }
+
+        .node--type-jurylid .col2layout .left-region {
+            width: 61%;
+        }
+
+        .node--type-jurylid .col2layout .right-region {
+            width: 39%;
+        }
+
+        .node--type-winnerspagina .col2layout .left-region {
+            width: 61%;
+        }
+
+        .node--type-winnerspagina .col2layout .right-region {
+            width: 39%;
+        }
+
+        .homepage .col2col_left {
+            width: 55% !important
+        }
+
+        .node--type-aboutpage .col3layout .left-region {
+            width: 39%
+        }
+
+        .aboutcol3layout .left-region {
+            width: 39%
+        }
+
+        @media screen and (min-width: 900px) {
+            .wrapper.header {
+                background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+                height: 140px;
+                background-size: 100%;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+            }
+            .historylayout .historylayoutwrap {
+                flex-direction: row;
+            }
+        
+            .historylayoutwrap .historycol.left-region, .historylayoutwrap .historycol.center-region, .historylayoutwrap .historycol.right-region {
+                order: inherit;
+            }
+        
+                .historylayoutwrap .historycol.center-region:after {
+                    content: '';
+                    display: block;
+                    height: 100%;
+                    box-sizing: inherit;
+                    width: 3px;
+                    background-color: #1775BF;
+                    padding-top: 40px;
+                    top: -40px;
+                    position: absolute;
+                    right: 0;
+                }
+        
+            .historylayoutwrap .historycol.right-region {
+                border-bottom: none;
+                padding: 0 0 0 15px;
+            }
+
+               
+
+            .wrapper.header {
+                height: 185px;
+            }
+
+                .wrapper.header .leftheadtext {
+                    width: 187px;
+                    margin-top: 45px;
+                    text-align: right;
+                }
+
+                .wrapper.header .rightheadtext {
+                    clear: none;
+                    width: 125px;
+                    margin-top: 45px;
+                    margin-left: 20px;
+                }
+
+                .wrapper.header .chainwrapper svg {
+                    height: 187%;
+                    left: -22%;
+                    position: absolute;
+                    top: -77%;
+                    width: 120%;
+                }
+        }
+
+        @media screen and (min-width: 1005px) {
+            .wrapper.header {
+                background-image: url('/images/2018-06/Janssen_DS2018Comms_JanssenPrize_v3-02a.png');
+                height: 205px;
+                background-size: 100%;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+            }
+            .wrapper.header .leftheadlogo {
+                width: 170px;
+                margin-top: 45px;
+            }
+
+            .wrapper.header .leftheadtext {
+                width: 180px;
+                margin-top: 48px;
+                text-align: right;
+                font-size: 15px;
+            }
+
+            .wrapper.header .rightheadtext {
+                clear: none;
+                width: 170px;
+                margin-top: 45px;
+                margin-left: 20px;
+                font-size: 25px;
+            }
+            /*
+.wrapper.topmenu ul:not(.contextual-links) li { margin-right: 75px; }
+.wrapper.topmenu ul:not(.contextual-links) li { margin-right:40px;}
+.wrapper.topmenu ul:not(.contextual-links) li.social-links img  { border:1px solid green; width:12%; } */
+            .wrapper.topmenu ul li {
+                float: left;
+                padding-top: 20px;
+            }
+
+                .wrapper.topmenu ul li.social-links {
+                    margin: 0 !important;
+                    padding: 0px !important;
+                }
+
+                    .wrapper.topmenu ul li.social-links .social-wrapper {
+                        border: none;
+                        float: left;
+                        padding-top: 15px;
+                    }
+
+                        .wrapper.topmenu ul li.social-links .social-wrapper img {
+                            float: left;
+                            width: 20px;
+                            margin: 0 10px;
+                        }
+        }
+    }
+    /* for menu */
+    /* Dropdown Button */
+    .dropbtn {
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #1775bf;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 999999;
+        text-align: left;
+    }
+
+        .dropdown-content :hover {
+            background-color: #1775bf;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {
+                background-color: #1775bf;
+            }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #1775bf;
+    }
+
+    .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown {
+        padding-bottom: 20px;
+    }
+
+        .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown .dropdown-content {
+            top: 100%;
+            left: -30%;
+        }
+
+        .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown .drop-arrow {
+            display: none;
+        }
+
+    .past-jury ul li {
+        padding-left: 100px;
+    }
+
+    .past-jury1 {
+        width: 100%;
+    }
+
+        .past-jury1 .historylayoutwrap {
+            width: 50%;
+        }
+
+    .center-region1 li {
+        padding-left: 53px
+    }
+
+    .past-jury1 .historylayoutwrap {
+        width: 100%;
+    }
+
+    .past-jury1 .historylayoutwrap {
+        width: 100%;
+    }
+
+    .center-region1 li {
+        padding-left: 20%;
+    }
+
+    .past-jury ul li {
+        padding-left: 20%;
+    }
+
+    .historylayout.past-jury1 h2 {
+        padding-left: 8%;
+    }
+
+
+    .col3layoutwrap .left-region .a-class {
+        border: 5px solid #1775bf;
+        color: #1775bf;
+        font-size: 8px;
+        text-decoration: none;
+    }
+
+    .nominationslink {
+        border: 0 !important;
+        text-align: center;
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown {
+            padding-bottom: 0px;
+        }
+
+            .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown .drop-arrow {
+                display: block;
+                font-size: 16px;
+                color: #fff;
+                position: absolute;
+                right: 90px;
+                top: 18px;
+            }
+
+        .wrapper .insidewrapper {
+            height: auto;
+        }
+
+        .social-links .social-wrapper {
+            padding-bottom: 5%;
+        }
+
+            .social-links .social-wrapper img {
+                width: 12%;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 2%;
+            }
+
+        .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown .dropdown-content {
+            display: none;
+            width: 100%;
+            position: relative;
+            left: 0px;
+            text-align: center;
+            box-shadow: none;
+        }
+
+            .topmenu #block-janssenspharmaceuticaprize-main-menu ul li.dropdown .dropdown-content a {
+                padding: 10px 0 0;
+                font-size: 16px;
+            }
+
+        .dropbtn::after {
+            background-image: url("/images/inline-images/menu-collapse.png");
+            background-repeat: no-repeat;
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-position: right center;
+        }
+
+        .expanded .dropbtn::after {
+            background-image: url("/images/inline-images/menu-expand.png");
+            background-repeat: no-repeat;
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            background-position: right center;
+        }
+
+        .dropdown-content a:first-child {
+            border-bottom: 0 !important;
+        }
+
+        li.dropdown .dropdown-content a.mob_only {
+            display: block;
+        }
+
+        li.dropdown a.desktop_only {
+            display: none;
+        }
+
+        li.dropdown a.mob_only {
+            display: unset;
+        }
+
+        .wrapper.topmenu ul:not(.contextual-links) li a:hover {
+            border-bottom: 0 !important;
+        }
+    }
+
+
+    #block-footertext {
+        font-size: 9px;
+    }
+
+    .h2type {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .h2subtype {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .h1type {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .h4type {
+        font-size: 17px;
+    }
+
+    .history.wrapper.content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background: #fff;
+    }
+
+    .historylayoutwrap .historycol {
+        flex-grow: 1;
+        width: 100%;
+        padding: 0 25px 0 0;
+    }
+    .historylayoutwrap .historycol.center-region {
+        position: relative;
+        order: 3;
+    }
+    .historylayoutwrap .historycol {
+        flex-grow: 1;
+        width: 100%;
+        padding: 0 25px 0 0;
+    }
+    @media screen and (min-width: 830px) {
+        .col2layout .col2col:last-child {
+            padding-right: 30px;
+        }
+    }
+    /* .nominationslink:hover {color:gray;} */
