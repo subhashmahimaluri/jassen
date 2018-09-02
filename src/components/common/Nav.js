@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className="wrapper topmenu">
             <div id="includedContent">
                 <div className="insidewrapper">
-                    <nav role="navigation" aria-labelledby="block-janssenspharmaceuticaprize-main-menu-menu" id="block-janssenspharmaceuticaprize-main-menu">
+                    <nav aria-labelledby="block-janssenspharmaceuticaprize-main-menu-menu" id="block-janssenspharmaceuticaprize-main-menu">
                         <ul>
                             <li>
                                 <Link to="/" className="is-active">Home</Link>

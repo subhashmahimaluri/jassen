@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Header from './common/Header';
-import Nav from './common/Nav';
 import Home from './Home';
 import History from './History';
 

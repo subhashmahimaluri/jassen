@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Nav from './common/Nav';
 import Footer from './common/Footer';
+import './Home.scss';
 
 const Home = () => {
     return (
@@ -30,7 +31,7 @@ const Home = () => {
                                         </p>
                                         <br />
                                     </div>
-                                    <div style={{float: "left", width: "20%"}}><img src="/images/2018-06/jpp.png" /></div>
+                                    <div style={{float: "left", width: "20%"}}><img alt="" src="/images/2018-06/jpp.png" /></div>
                                     <div style={{fontSize: "14px", float: "right", width: "78%"}}>
                                         <ul style={{paddingLeft: "10px", listStyleType: "square"}}>
                                             <b>About the Prize:</b>
@@ -50,7 +51,7 @@ const Home = () => {
                                         <p style={{color: "deepskyblue", fontSize: "16px", fontWeight: "normal"}}><i>Professor of Chemistry at the University of California, Berkeley</i></p><br />
                                     </div>
                                     <div style={{float: "right", width: "38%"}}>
-                                        <img src="/images/2018-06/Toste_MG_4894.jpg" />
+                                        <img src="/images/2018-06/Toste_MG_4894.jpg" alt="" />
                                     </div>
                                     <div className="clear"></div>
                                     <div>

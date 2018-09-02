@@ -6,7 +6,8 @@ const Footer = () => {
             <div className="insidewrapper">
                 <div className="footerblock">
                     <div>
-                        <nav role="navigation" aria-labelledby="block-janssenspharmaceuticaprize-footer-menu" id="block-janssenspharmaceuticaprize-footer">
+                        <div />
+                        <nav aria-labelledby="block-janssenspharmaceuticaprize-footer-menu" id="block-janssenspharmaceuticaprize-footer">
                             <ul>
                                 <li>
                                     <a href="about.html" title="About the award" data-drupal-link-system-path="node/2">About the award</a>
@@ -25,7 +26,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <nav role="navigation" aria-labelledby="block-footer2-menu" id="block-footer2">
+                        <nav aria-labelledby="block-footer2-menu" id="block-footer2">
                             <ul>
                                 <li>
                                     <a href="privacy-policy.html" data-drupal-link-system-path="node/8">Privacy</a>
